@@ -1,0 +1,24 @@
+Model:		SM_Modificado
+Gauge:		Unitary
+
+Process:	p,p->h
+Decay		h->Si,Si 
+Alias:		p=u,U,d,D,G        
+
+pdf1:		cteq6l (proton)
+pdf2:		cteq6l (proton)
+
+p1:		6500
+p2:		6500
+
+Number of events (per run step):	1000
+Filename:				Prueba_SM_Modificado
+
+Parallelization method:		local
+Max number of cpus:		4
+sleep time:			1
+
+nSess_1:	5
+nCalls_1:	1000
+nSess_2:	5
+nCalls_2:	1000
