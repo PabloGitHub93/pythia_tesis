@@ -1,0 +1,25 @@
+Model:		Stand. Model plus Singlet (un. gauge)
+Gauge:		Unitary
+
+Process:	p,p->q,q,H
+Decay		H->Si,Si 
+Alias:		p=u,U,d,D,G
+Alias:		q=u,U,d,D,G        
+
+pdf1:		cteq6l (proton)
+pdf2:		cteq6l (proton)
+
+p1:		6500
+p2:		6500
+
+Number of events (per run step):	1000
+Filename:				SSDM_pp_qqH
+
+Parallelization method:		local
+Max number of cpus:		4
+sleep time:			1
+
+nSess_1:	5
+nCalls_1:	1000
+nSess_2:	5
+nCalls_2:	1000
